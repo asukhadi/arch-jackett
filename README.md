@@ -8,7 +8,7 @@ Latest Jackett packaged release.
 **Pull image**
 
 ```
-docker pull sdesbure/arch-jackett
+docker pull asukhadi/arch-jackett
 ```
 
 **Run container**
