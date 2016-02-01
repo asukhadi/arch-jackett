@@ -16,7 +16,7 @@ RUN mkdir -p /usr/share/Jackett
 RUN chown -R jackett: /usr/share/Jackett
 
 # grep Jackett
-ENV version="0.7.102"
+ENV version="0.7.164"
 RUN wget --no-check-certificate https://github.com/Jackett/Jackett/releases/download/v${version}/Jackett.Binaries.Mono.tar.gz
 
 # unpack and change owner
